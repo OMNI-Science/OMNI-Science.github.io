@@ -1,0 +1,1155 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="Hexo Theme Redefine">
+    
+    <meta name="author" content="omni">
+    <!-- preconnect -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    
+    <!--- Seo Part-->
+    
+    <link rel="canonical" href="https://omni-science.github.io/2023/05/19/机械原理复习/"/>
+    <meta name="robots" content="index,follow">
+    <meta name="googlebot" content="index,follow">
+    <meta name="revisit-after" content="1 days">
+    
+        <meta name="description" content="机械原理复习序论第一章 绪论这一块没啥玩意好看的，结束。 第一篇  机构分析基础第二章 机构的结构分析机构的组成、分类及其简图表达机构的组成及分类$$机构&#x3D;\left{\begin{matrix}构件 \运动副\end{matrix}\right.$$ 构件 ：作为一整个参与机构运动的刚性单元体。 从组成和运动来看，任何机构都是由若干个构件组合而成的。 构件和零件的区别 零件 ：是组成机">
+<meta property="og:type" content="article">
+<meta property="og:title" content="机械原理复习">
+<meta property="og:url" content="https://omni-science.github.io/2023/05/19/%E6%9C%BA%E6%A2%B0%E5%8E%9F%E7%90%86%E5%A4%8D%E4%B9%A0/index.html">
+<meta property="og:site_name" content="OMNI_Web">
+<meta property="og:description" content="机械原理复习序论第一章 绪论这一块没啥玩意好看的，结束。 第一篇  机构分析基础第二章 机构的结构分析机构的组成、分类及其简图表达机构的组成及分类$$机构&#x3D;\left{\begin{matrix}构件 \运动副\end{matrix}\right.$$ 构件 ：作为一整个参与机构运动的刚性单元体。 从组成和运动来看，任何机构都是由若干个构件组合而成的。 构件和零件的区别 零件 ：是组成机">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://omni-science.github.io/image/%E6%9C%BA%E6%A2%B0%E5%8E%9F%E7%90%86%E5%A4%8D%E4%B9%A0/%E7%AC%AC%E4%BA%8C%E7%AB%A0/2.2.1-1.jpg">
+<meta property="og:image" content="https://omni-science.github.io/image/%E6%9C%BA%E6%A2%B0%E5%8E%9F%E7%90%86%E5%A4%8D%E4%B9%A0/%E7%AC%AC%E4%BA%8C%E7%AB%A0/2.2.2-1.jpg">
+<meta property="og:image" content="https://omni-science.github.io/image/%E6%9C%BA%E6%A2%B0%E5%8E%9F%E7%90%86%E5%A4%8D%E4%B9%A0/%E7%AC%AC%E4%BA%8C%E7%AB%A0/2.2.2-2.jpg">
+<meta property="og:image" content="https://omni-science.github.io/image/%E6%9C%BA%E6%A2%B0%E5%8E%9F%E7%90%86%E5%A4%8D%E4%B9%A0/%E7%AC%AC%E4%BA%8C%E7%AB%A0/2.2.2-3.jpg">
+<meta property="og:image" content="https://omni-science.github.io/image/%E6%9C%BA%E6%A2%B0%E5%8E%9F%E7%90%86%E5%A4%8D%E4%B9%A0/%E7%AC%AC%E4%BA%8C%E7%AB%A0/2.2.2-4.jpg">
+<meta property="og:image" content="https://omni-science.github.io/image/%E6%9C%BA%E6%A2%B0%E5%8E%9F%E7%90%86%E5%A4%8D%E4%B9%A0/%E7%AC%AC%E4%BA%8C%E7%AB%A0/2.2.3-1.png">
+<meta property="og:image" content="https://omni-science.github.io/image/%E6%9C%BA%E6%A2%B0%E5%8E%9F%E7%90%86%E5%A4%8D%E4%B9%A0/%E7%AC%AC%E4%BA%8C%E7%AB%A0/2.4-1.jpg">
+<meta property="og:image" content="https://omni-science.github.io/image/%E6%9C%BA%E6%A2%B0%E5%8E%9F%E7%90%86%E5%A4%8D%E4%B9%A0/%E7%AC%AC%E4%BA%8C%E7%AB%A0/2.4-2.jpg">
+<meta property="og:image" content="https://omni-science.github.io/image/%E6%9C%BA%E6%A2%B0%E5%8E%9F%E7%90%86%E5%A4%8D%E4%B9%A0/%E7%AC%AC%E4%BA%8C%E7%AB%A0/2.4-3.png">
+<meta property="og:image" content="https://omni-science.github.io/image/%E6%9C%BA%E6%A2%B0%E5%8E%9F%E7%90%86%E5%A4%8D%E4%B9%A0/%E7%AC%AC%E4%BA%8C%E7%AB%A0/2-56.jpg">
+<meta property="og:image" content="https://omni-science.github.io/image/%E6%9C%BA%E6%A2%B0%E5%8E%9F%E7%90%86%E5%A4%8D%E4%B9%A0/%E7%AC%AC%E4%BA%8C%E7%AB%A0/2-31.jpg">
+<meta property="og:image" content="https://omni-science.github.io/image/%E6%9C%BA%E6%A2%B0%E5%8E%9F%E7%90%86%E5%A4%8D%E4%B9%A0/%E7%AC%AC%E4%BA%8C%E7%AB%A0/2-32.jpg">
+<meta property="og:image" content="https://omni-science.github.io/image/%E6%9C%BA%E6%A2%B0%E5%8E%9F%E7%90%86%E5%A4%8D%E4%B9%A0/%E7%AC%AC%E4%BA%8C%E7%AB%A0/2-58.jpg">
+<meta property="og:image" content="https://omni-science.github.io/image/%E6%9C%BA%E6%A2%B0%E5%8E%9F%E7%90%86%E5%A4%8D%E4%B9%A0/%E7%AC%AC%E4%BA%8C%E7%AB%A0/2-65.jpg">
+<meta property="og:image" content="https://omni-science.github.io/image/%E6%9C%BA%E6%A2%B0%E5%8E%9F%E7%90%86%E5%A4%8D%E4%B9%A0/%E7%AC%AC%E4%BA%8C%E7%AB%A0/2-46.jpg">
+<meta property="article:published_time" content="2023-05-19T12:47:00.000Z">
+<meta property="article:modified_time" content="2023-05-23T20:39:02.274Z">
+<meta property="article:author" content="omni">
+<meta property="article:tag" content="复习">
+<meta property="article:tag" content="机械原理">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://omni-science.github.io/image/%E6%9C%BA%E6%A2%B0%E5%8E%9F%E7%90%86%E5%A4%8D%E4%B9%A0/%E7%AC%AC%E4%BA%8C%E7%AB%A0/2.2.1-1.jpg">
+    
+    
+    <!--- Icon Part-->
+    <link rel="icon" type="image/png" href="/images/redefine-favicon.svg" sizes="192x192">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/redefine-favicon.svg">
+    <meta name="theme-color" content="#A31F34">
+    <link rel="shortcut icon" href="/images/redefine-favicon.svg">
+    <!--- Page Info-->
+    
+    <title>
+        
+            机械原理复习 -
+        
+        OMNI_Web
+    </title>
+    
+<link rel="stylesheet" href="/css/style.css">
+
+    
+<link rel="stylesheet" href="/assets/fonts.css">
+
+    <!--- Font Part-->
+    
+    
+    
+        <link href="" rel="stylesheet">
+    
+    
+
+    <!--- Inject Part-->
+    
+    <script id="hexo-configurations">
+    let Global = window.Global || {};
+    Global.hexo_config = {"hostname":"omni-science.github.io","root":"/","language":"zh-CN","path":"search.xml"};
+    Global.theme_config = {"articles":{"style":{"font_size":"16px","line_height":1.5,"image_border_radius":"14px","image_alignment":"center","image_caption":false,"link_icon":true},"word_count":{"enable":true,"count":true,"min2read":true},"author_label":{"enable":true,"auto":false,"list":[]},"code_block":{"copy":true,"style":"simple","font":{"enable":false,"family":null,"url":null}},"toc":{"enable":true,"max_depth":3,"number":true,"expand":true,"init_open":true},"copyright":true,"lazyload":true,"recommendation":{"enable":false,"title":"推荐阅读","limit":3,"placeholder":"/images/wallhaven-wqery6-light.webp","skip_dirs":[]}},"colors":{"primary":"#A31F34","secondary":null},"global":{"fonts":{"chinese":{"enable":true,"family":null,"url":null},"english":{"enable":false,"family":null,"url":null}},"content_max_width":"1000px","sidebar_width":"210px","hover":{"shadow":true,"scale":false},"scroll_progress":{"bar":false,"percentage":true},"busuanzi_counter":{"enable":true,"site_pv":true,"site_uv":true,"post_pv":true},"pjax":true,"open_graph":true,"google_analytics":{"enable":false,"id":null}},"home_banner":{"enable":true,"style":"fixed","image":{"light":"/images/wallhaven-wqery6-light.webp","dark":"/images/wallhaven-wqery6-dark.webp"},"title":"OMNI_Web","subtitle":{"text":["未来即是-真理"],"hitokoto":{"enable":false,"api":"https://v1.hitokoto.cn"},"typing_speed":100,"backing_speed":80,"starting_delay":500,"backing_delay":1500,"loop":true,"smart_backspace":true},"text_color":{"light":"#fff","dark":"#d1d1b6"},"text_style":{"title_size":"2.8rem","subtitle_size":"1.5rem","line_height":1.2},"custom_font":{"enable":false,"family":null,"url":null},"social_links":{"enable":true,"links":{"github":"https://github.com/OMNI-Science","instagram":null,"zhihu":null,"twitter":null,"email":null}}},"plugins":{"feed":{"enable":true},"aplayer":{"enable":true,"type":"fixed","audios":[{"name":"强风大背头","artist":"warma","url":"https://ws.stream.qqmusic.qq.com/C400002shd8K3EJKMI.m4a?guid=4220211900&vkey=C83289E01D0CC30A0AD9839ED7E099D52E638A98DDBFE26E60C50B6FBF695BB211A6BFFFFF494CBD64CB9A14E3C44092B7198D0B333EF28E&uin=&fromtag=123032","cover":"https://bilibiliq.com/s/45ZjjO"},{"name":"~君がくれたもの~","artist":"本間芽衣子, 安城鳴子, 鶴見知利子","url":"https://m7.music.126.net/20230524030418/3b9ffbbac67d3979aff57089ab088c7d/ymusic/205d/b472/088b/3cfedcb6527862f1df1509b3ba9da415.mp3","cover":null}]},"mermaid":{"enable":false,"version":"9.3.0"}},"version":"2.1.4","navbar":{"auto_hide":false,"color":{"left":"#f78736","right":"#367df7","transparency":35},"links":{"Home":{"path":"/","icon":"fa-regular fa-house"},"Archives":{"path":"/archives","icon":"fa-regular fa-archive"},"相册":{"path":"/masonry/","icon":"fa-solid fa-image"},"配置":{"path":"https://redefine-docs.ohevan.com/","icon":"fa-solid fa-palette"},"github":{"path":"https://github.com/OMNI-Science","icon":"fa-brands fa-github"},"Status":{"path":"https://status.evanluo.top/","icon":"fa-regular fa-chart-bar"}},"search":{"enable":true,"preload":true},"tags":{"教程":{"icon":"fa-solid fa-tags","path":"/tags/"},"DIY":{"icon":"fa-solid fa-wrench","path":"/tags/"}},"categories":{"Categories":{"icon":"fa-solid fa-folder","path":"/categories/"}}},"page_templates":{"friends_column":2,"tags_style":"blur"},"home":{"sidebar":{"enable":true,"position":"left","first_item":"menu","announcement":"欢迎光临~","links":{"Archives":{"path":"/archives","icon":"fa-regular fa-archive"},"Tags":{"path":"/tags","icon":"fa-regular fa-tags"},"Categories":{"path":"/categories","icon":"fa-regular fa-folder"}}},"article_date_format":"auto","categories":{"enable":true,"limit":3},"tags":{"enable":true,"limit":3}}};
+    Global.language_ago = {"second":"%s 秒前","minute":"%s 分钟前","hour":"%s 小时前","day":"%s 天前","week":"%s 周前","month":"%s 个月前","year":"%s 年前"};
+    Global.data_config = {"masonry":false};
+  </script>
+    
+    <!--- Fontawesome Part-->
+    
+<link rel="stylesheet" href="/fontawesome/fontawesome.min.css">
+
+    
+<link rel="stylesheet" href="/fontawesome/brands.min.css">
+
+    
+<link rel="stylesheet" href="/fontawesome/solid.min.css">
+
+    
+<link rel="stylesheet" href="/fontawesome/regular.min.css">
+
+    
+    
+    
+    
+<meta name="generator" content="Hexo 6.3.0"></head>
+
+
+<body>
+<div class="progress-bar-container">
+    
+
+    
+        <span class="pjax-progress-bar"></span>
+        <span class="pjax-progress-icon">
+            <i class="fa-solid fa-circle-notch fa-spin"></i>
+        </span>
+    
+</div>
+
+
+<main class="page-container">
+
+    
+
+    <div class="main-content-container">
+
+        <div class="main-content-header">
+            <header class="navbar-container">
+    
+    <div class="navbar-content">
+        <div class="left">
+            
+            <a class="logo-title" href="/">
+                
+                OMNI_Web
+                
+            </a>
+        </div>
+
+        <div class="right">
+            <!-- PC -->
+            <div class="desktop">
+                <ul class="navbar-list">
+                    
+                        
+                            <li class="navbar-item">
+                                <!-- Menu -->
+                                <a class="" 
+                                    href="/"  >
+                                    
+                                        
+                                            <i class="fa-regular fa-house"></i>
+                                        
+                                        首页
+                                    
+                                </a>
+                                <!-- Submenu -->
+                                
+                            </li>
+                    
+                        
+                            <li class="navbar-item">
+                                <!-- Menu -->
+                                <a class="" 
+                                    href="/archives"  >
+                                    
+                                        
+                                            <i class="fa-regular fa-archive"></i>
+                                        
+                                        归档
+                                    
+                                </a>
+                                <!-- Submenu -->
+                                
+                            </li>
+                    
+                        
+                            <li class="navbar-item">
+                                <!-- Menu -->
+                                <a class="" 
+                                    href="/masonry/"  >
+                                    
+                                        
+                                            <i class="fa-solid fa-image"></i>
+                                        
+                                        相册
+                                    
+                                </a>
+                                <!-- Submenu -->
+                                
+                            </li>
+                    
+                        
+                            <li class="navbar-item">
+                                <!-- Menu -->
+                                <a class="" 
+                                    target="_blank" rel="noopener" href="https://redefine-docs.ohevan.com/"  >
+                                    
+                                        
+                                            <i class="fa-solid fa-palette"></i>
+                                        
+                                        配置
+                                    
+                                </a>
+                                <!-- Submenu -->
+                                
+                            </li>
+                    
+                        
+                            <li class="navbar-item">
+                                <!-- Menu -->
+                                <a class="" 
+                                    target="_blank" rel="noopener" href="https://github.com/OMNI-Science"  >
+                                    
+                                        
+                                            <i class="fa-brands fa-github"></i>
+                                        
+                                        GITHUB
+                                    
+                                </a>
+                                <!-- Submenu -->
+                                
+                            </li>
+                    
+                        
+                            <li class="navbar-item">
+                                <!-- Menu -->
+                                <a class="" 
+                                    target="_blank" rel="noopener" href="https://status.evanluo.top/"  >
+                                    
+                                        
+                                            <i class="fa-regular fa-chart-bar"></i>
+                                        
+                                        状态
+                                    
+                                </a>
+                                <!-- Submenu -->
+                                
+                            </li>
+                    
+                    
+                        <li class="navbar-item search search-popup-trigger">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </li>
+                    
+                </ul>
+            </div>
+            <!-- Mobile -->
+            <div class="mobile">
+                
+                    <div class="icon-item search search-popup-trigger"><i class="fa-solid fa-magnifying-glass"></i></div>
+                
+                <div class="icon-item navbar-bar">
+                    <div class="navbar-bar-middle"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Mobile drawer -->
+    <div class="navbar-drawer">
+        <ul class="drawer-navbar-list">
+            
+                
+                    <li class="drawer-navbar-item flex-center">
+                        <a class="" 
+                        href="/"  >
+                             
+                                
+                                    <i class="fa-regular fa-house"></i>
+                                
+                                首页
+                            
+                        </a>
+                    </li>
+                    <!-- Submenu -->
+                    
+            
+                
+                    <li class="drawer-navbar-item flex-center">
+                        <a class="" 
+                        href="/archives"  >
+                             
+                                
+                                    <i class="fa-regular fa-archive"></i>
+                                
+                                归档
+                            
+                        </a>
+                    </li>
+                    <!-- Submenu -->
+                    
+            
+                
+                    <li class="drawer-navbar-item flex-center">
+                        <a class="" 
+                        href="/masonry/"  >
+                             
+                                
+                                    <i class="fa-solid fa-image"></i>
+                                
+                                相册
+                            
+                        </a>
+                    </li>
+                    <!-- Submenu -->
+                    
+            
+                
+                    <li class="drawer-navbar-item flex-center">
+                        <a class="" 
+                        target="_blank" rel="noopener" href="https://redefine-docs.ohevan.com/"  >
+                             
+                                
+                                    <i class="fa-solid fa-palette"></i>
+                                
+                                配置
+                            
+                        </a>
+                    </li>
+                    <!-- Submenu -->
+                    
+            
+                
+                    <li class="drawer-navbar-item flex-center">
+                        <a class="" 
+                        target="_blank" rel="noopener" href="https://github.com/OMNI-Science"  >
+                             
+                                
+                                    <i class="fa-brands fa-github"></i>
+                                
+                                GITHUB
+                            
+                        </a>
+                    </li>
+                    <!-- Submenu -->
+                    
+            
+                
+                    <li class="drawer-navbar-item flex-center">
+                        <a class="" 
+                        target="_blank" rel="noopener" href="https://status.evanluo.top/"  >
+                             
+                                
+                                    <i class="fa-regular fa-chart-bar"></i>
+                                
+                                状态
+                            
+                        </a>
+                    </li>
+                    <!-- Submenu -->
+                    
+            
+
+        </ul>
+    </div>
+
+    <div class="window-mask"></div>
+
+</header>
+
+
+        </div>
+
+        <div class="main-content-body">
+
+            
+
+            <div class="main-content">
+
+                
+                    <div class="fade-in-down-animation">
+    <div class="post-page-container">
+        <div class="article-content-container">
+
+            
+            
+                <div class="article-title">
+                    <h1 class="article-title-regular">机械原理复习</h1>
+                </div>
+            
+                
+            
+
+            
+                <div class="article-header">
+                    <div class="avatar">
+                        <img src="/images/redefine-avatar.svg">
+                    </div>
+                    <div class="info">
+                        <div class="author">
+                            <span class="name">omni</span>
+                            
+                                <span class="author-label">Lv1</span>
+                            
+                        </div>
+                        <div class="meta-info">
+                            <div class="article-meta-info">
+    <span class="article-date article-meta-item">
+        <i class="fa-regular fa-pen-fancy"></i>&nbsp;
+        <span class="desktop">2023-05-19 20:47</span>
+        <span class="mobile">2023-05-19 20:47</span>
+        <span class="hover-info">创建</span>
+    </span>
+    
+        <span class="article-date article-meta-item">
+            <i class="fa-regular fa-wrench"></i>&nbsp;
+            <span class="desktop">2023-05-24 04:39:02</span>
+            <span class="mobile">2023-05-24 04:39</span>
+            <span class="hover-info">更新</span>
+        </span>
+    
+
+    
+        <span class="article-categories article-meta-item">
+            <i class="fa-regular fa-folders"></i>&nbsp;
+            <ul>
+                
+                    <li>
+                        <a href="/categories/%E5%A4%8D%E4%B9%A0%E8%B5%84%E6%96%99/">复习资料</a>&nbsp;
+                    </li>
+                
+            </ul>
+        </span>
+    
+    
+        <span class="article-tags article-meta-item">
+            <i class="fa-regular fa-tags"></i>&nbsp;
+            <ul>
+                
+                    <li>
+                        <a href="/tags/%E5%A4%8D%E4%B9%A0/">复习</a>&nbsp;
+                    </li>
+                
+                    <li>
+                        | <a href="/tags/%E6%9C%BA%E6%A2%B0%E5%8E%9F%E7%90%86/">机械原理</a>&nbsp;
+                    </li>
+                
+            </ul>
+        </span>
+    
+
+    
+    
+        <span class="article-wordcount article-meta-item">
+            <i class="fa-regular fa-typewriter"></i>&nbsp;<span>4.7k 字</span>
+        </span>
+    
+    
+        <span class="article-min2read article-meta-item">
+            <i class="fa-regular fa-clock"></i>&nbsp;<span>16 分钟</span>
+        </span>
+    
+    
+        <span class="article-pv article-meta-item">
+            <i class="fa-regular fa-eye"></i>&nbsp;<span id="busuanzi_value_page_pv"></span>
+        </span>
+    
+</div>
+
+                        </div>
+                    </div>
+                </div>
+            
+
+            <div class="article-content markdown-body">
+                <h1 id="机械原理复习"><a href="#机械原理复习" class="headerlink" title="机械原理复习"></a>机械原理复习</h1><h2 id="序论"><a href="#序论" class="headerlink" title="序论"></a>序论</h2><h3 id="第一章-绪论"><a href="#第一章-绪论" class="headerlink" title="第一章 绪论"></a>第一章 绪论</h3><p>这一块没啥玩意好看的，结束。</p>
+<h2 id="第一篇-机构分析基础"><a href="#第一篇-机构分析基础" class="headerlink" title="第一篇  机构分析基础"></a>第一篇  机构分析基础</h2><h3 id="第二章-机构的结构分析"><a href="#第二章-机构的结构分析" class="headerlink" title="第二章 机构的结构分析"></a>第二章 机构的结构分析</h3><h4 id="机构的组成、分类及其简图表达"><a href="#机构的组成、分类及其简图表达" class="headerlink" title="机构的组成、分类及其简图表达"></a>机构的组成、分类及其简图表达</h4><h5 id="机构的组成及分类"><a href="#机构的组成及分类" class="headerlink" title="机构的组成及分类"></a>机构的组成及分类</h5><p>$$<br>机构&#x3D;\left{<br>\begin{matrix}<br>构件 \<br>运动副<br>\end{matrix}<br>\right.<br>$$</p>
+<p><strong>构件</strong> ：作为一整个参与机构运动的刚性单元体。</p>
+<p>从组成和运动来看，任何机构都是由若干个构件组合而成的。</p>
+<div class="note-large notel-red"><div class="notel-title"><p>构件和零件的区别</p>
+</div><div class="notel-content"><p><strong>零件</strong> ：是组成机械结构的基本单元，为制造单元体。<br><strong>构件</strong> ：是组成机构的基本单元，为运动单元体。可由一个零件或多个零件固连而成的刚性体。</p>
+ </div></div>
+
+<p><strong>运动副</strong> ： 两构件直接接触而构成的可动连接。</p>
+<p><em>运动副元素</em>：是两构建上参与接触而构成运动副发表面。</p>
+<p>$$<br>运动副的分类&#x3D;<br>\begin{cases}<br>按引入的约束数分类 \<br>根据组成运动副的两个运动副元素的接触情况分类 \<br>根据运动副的封闭形式分类 \<br>根据构成运动副发两构件之间的相对运动进行分类 \<br>根据运动副相对运动是平面运动和空间运动分类<br>\end{cases}<br>$$</p>
+<p>自由度（$f$）：构件所具有的独立运动的数目，或确定构件位置所需的独立变量的数目。<br>约束（$s$）：运动副对构件独立运动所加的限制</p>
+<div class="note-large notel-red"><div class="notel-title"><p>两种常用的分类</p>
+</div><div class="notel-content"><p>自由构件(空间)$f$ &#x3D; 6；自由构件(平面)：$f$ &#x3D; 3<br>自由度与约束的关系：(空间)$f&#x3D; 6-s$；(平间)$f&#x3D; 3-s$</p>
+<ul>
+<li>按引入的约束数，运动副可以分为：I级副、II级副、III级副、IV级副、V级副。</li>
+<li>以点或线接触的运动副称为高副；以面接触的运动副称为低副。</li>
+</ul>
+ </div></div>
+
+<p>由三个或三个以上的构件在同一处构成运动副，称为<strong>复合运动副</strong>。</p>
+<h5 id="常用运动副的模型和符号"><a href="#常用运动副的模型和符号" class="headerlink" title="常用运动副的模型和符号"></a>常用运动副的模型和符号</h5><p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/../image/%E6%9C%BA%E6%A2%B0%E5%8E%9F%E7%90%86%E5%A4%8D%E4%B9%A0/%E7%AC%AC%E4%BA%8C%E7%AB%A0/2.2.1-1.jpg"
+                      alt="常用运动副的模型和符号" title="常用运动副的模型和符号"
+                ></p>
+<p><strong>运动链</strong> ：把若干个构件用运动副连接起来所形成的可动构件系统。</p>
+<p>$$<br>运动链&#x3D;<br>\begin{cases}<br>闭链、开链、混链 \<br>平面运动链、空间运动链<br>\end{cases}<br>$$</p>
+<p><strong>机构</strong> : 具有固定构件的运动链，各构件都有确定的运动。</p>
+<div class="tabs" id="tab-机构"><ul class="nav-tabs"><li class="tab active"><a class="#机构-1">机架</a></li><li class="tab"><a class="#机构-2">原动件</a></li><li class="tab"><a class="#机构-3">从动件</a></li></ul><div class="tab-content"><div class="tab-pane active" id="机构-1"><p>机构中的固定构件。一般机架相对地面固定不动，但当机构安装在运动的机械上时则是运动的。</p></div><div class="tab-pane" id="机构-2"><p>按给定已知运动规律独立运动的构件；常以转向箭头表示。</p></div><div class="tab-pane" id="机构-3"><p>机构中其余活动构件。其运动规律决定于原动件的运动规律和机构的结构及构件的尺寸。</p></div></div></div>
+
+<div class="note-large notel-red"><div class="notel-title"><p>机构的分类</p>
+</div><div class="notel-content"><p><strong>机构的分类</strong>：可从不同的角度或研究目的进行分类。</p>
+<ul>
+<li><strong>按运动副组成</strong>：低副机构、高副机构</li>
+<li><strong>按机构运动情况</strong>：平面机构、空间机构</li>
+<li><strong>按组成机构的构件和机构工作原理</strong>：连杆机构、凸轮机构、齿轮机构、棘轮机构、槽轮机构、螺旋机构等。</li>
+</ul>
+ </div></div>
+
+<h4 id="机构运动简图及其绘制"><a href="#机构运动简图及其绘制" class="headerlink" title="机构运动简图及其绘制"></a>机构运动简图及其绘制</h4><p>用国标（GB）规定的简单符号和线条代表运动副和构件，并按一定比例尺表示机构的运动尺寸，绘制出表示机构的简明图形。这种能表达机构运动的简化图形称为<strong>机构运动简图</strong>。</p>
+<p>机构运动简图与原机械具有完全相同运动特性。</p>
+<h5 id="常用运动副发表达"><a href="#常用运动副发表达" class="headerlink" title="常用运动副发表达"></a>常用运动副发表达</h5><p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/../image/%E6%9C%BA%E6%A2%B0%E5%8E%9F%E7%90%86%E5%A4%8D%E4%B9%A0/%E7%AC%AC%E4%BA%8C%E7%AB%A0/2.2.2-1.jpg"
+                      alt="2-1(1)常用运动副符号"
+                ><br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/../image/%E6%9C%BA%E6%A2%B0%E5%8E%9F%E7%90%86%E5%A4%8D%E4%B9%A0/%E7%AC%AC%E4%BA%8C%E7%AB%A0/2.2.2-2.jpg"
+                      alt="2-1(2)常用运动副符号"
+                ></p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/../image/%E6%9C%BA%E6%A2%B0%E5%8E%9F%E7%90%86%E5%A4%8D%E4%B9%A0/%E7%AC%AC%E4%BA%8C%E7%AB%A0/2.2.2-3.jpg"
+                      alt="2-2常用构件的表示方法"
+                ></p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/../image/%E6%9C%BA%E6%A2%B0%E5%8E%9F%E7%90%86%E5%A4%8D%E4%B9%A0/%E7%AC%AC%E4%BA%8C%E7%AB%A0/2.2.2-4.jpg"
+                      alt="2-3常用机构运动简图符号"
+                ></p>
+<h5 id="机构运动简图的绘制步骤"><a href="#机构运动简图的绘制步骤" class="headerlink" title="机构运动简图的绘制步骤"></a>机构运动简图的绘制步骤</h5><ol>
+<li>分析机构运动，弄清构件数目；</li>
+<li>判定运动副的类型；</li>
+<li>$选择视图投影面，选择比例尺； \qquad 长度比例尺\mu_l&#x3D;\dfrac{实际尺寸（m）}{图示尺寸（mm）}$</li>
+<li>用规定符号绘制出各运动副；</li>
+<li>用规定符号绘制出各构件；</li>
+<li>构件和运动副分别编号；$\qquad\quad$ 构件用1,2,3，…编号；运动副用A,B,C，…编号</li>
+<li>标明原动件。</li>
+</ol>
+<h3 id="机构的运动确定性及其自由度分析"><a href="#机构的运动确定性及其自由度分析" class="headerlink" title="机构的运动确定性及其自由度分析"></a>机构的运动确定性及其自由度分析</h3><h4 id="机构具有确定运动的条件及最小阻力定律"><a href="#机构具有确定运动的条件及最小阻力定律" class="headerlink" title="机构具有确定运动的条件及最小阻力定律"></a>机构具有确定运动的条件及最小阻力定律</h4><p>机构自由度 $F$ ——机构具有确定运动时所必须给定的独立运动参数的数目</p>
+<p>机构具有确定运动的条件： 机构的原动件数目 &#x3D; 机构的自由度数目</p>
+<p>$$<br>\begin{cases}<br>若原动件数目 &gt; 机构自由度 \Longrightarrow 机构静止不动或从最薄弱的环节损坏<br>\<br>若原动件数目 &lt; 机构自由度 \Longrightarrow 机构的运动将不完全确定,遵循最小阻力定律<br>\end{cases}<br>$$<br><strong>最小阻力定律</strong>：当机构原动件的数目小于机构的自由度时，机构的运动也并不是毫无规律地随意运动，而这时机构的运动将遵守最小阻力定律 ——优先沿阻力最小的方向运动。</p>
+<h5 id="平面机构自由度的计算"><a href="#平面机构自由度的计算" class="headerlink" title="平面机构自由度的计算"></a>平面机构自由度的计算</h5><p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/../image/%E6%9C%BA%E6%A2%B0%E5%8E%9F%E7%90%86%E5%A4%8D%E4%B9%A0/%E7%AC%AC%E4%BA%8C%E7%AB%A0/2.2.3-1.png"
+                      alt="构件的自由度及运动副的约束"
+                ></p>
+<p>低副 $P_L$ 会带来2个约束，而高副 $P_H$ 会带来1个约束。</p>
+<p>设平面机构中有 $n$ 个活动构件；所形成的运动副中有 $P_L$ 个低副和 $P_H$ 个高副。每个低副引入2个约束，每个高副一般引入1个约束，则机构的自由度计算公式为：</p>
+<p><a href="," title="平面机构的自由度计算公式">$$ F&#x3D;3n-(2P_L + P_H) $$</a></p>
+<p><em><strong>注意事项</strong></em></p>
+<ul>
+<li><strong>复合铰链</strong>: 两个以上的构件同在一处构成转动副时，$m$ 个构件构成的运动副的数目 $p&#x3D; m-1$。</li>
+<li><strong>复合高副</strong>: 如果两构件在多处接触而构成平面高副，且各接触处的公法线方向并不彼此重合，则为复合高副，相当于一个低副。</li>
+<li>如果两构件在多处接触而构成运动副，并属于下列情况者，只能算作一个运动副。<ul>
+<li>转动副：转动轴线重合；</li>
+<li>移动副：移动方向彼此平行；</li>
+<li>平面高副：各接触点处的公法线彼此重合。</li>
+</ul>
+</li>
+</ul>
+<p><strong>局部自由度</strong>：机构中某些构件所产生的不影响其他构件的局部运动的自由度，数目以 $F’$ 表示。在计算机构自由度时，应除去局部自由度。</p>
+<p><strong>虚约束</strong>：机构中某些运动副带入的对机构运动起重复约束作用的约束，其数目以 $P’$ 表示。在计算机构自由度时，应除去虚约束。虚约束常发生的三种种情况：轨迹重合、两构件上距离恒定不变的两点和结构重复。</p>
+<ul>
+<li><strong>轨迹重合</strong>: 在机构中，如果用转动副连接的是两构件上运动轨迹本来相重合的点，则该连接将带入1个虚约束，计算时除去虚约束。</li>
+<li><strong>两构件上距离恒定不变的两点</strong>：在构件运动过程中，如果两构件上某两点之间的距离始终保持不变，又用一双副杆将此两点相连，将带入一个虚约束。</li>
+<li><strong>结构重复</strong>： 在机构中，不影响机构运动传递的重复部分所带入的约束为虚约束。<br>设机构中重复部分的构件数 $n’$，低副数 $p_l’$，高副数 $p_h’$，则该重复部分的虚约束数目为： $𝑝′ &#x3D; 2𝑝_l′ + 𝑝_ℎ′ − 3𝑛′$</li>
+</ul>
+<h4 id="平面机构的组成原理、结构分类及分析与综合"><a href="#平面机构的组成原理、结构分类及分析与综合" class="headerlink" title="平面机构的组成原理、结构分类及分析与综合"></a>平面机构的组成原理、结构分类及分析与综合</h4><h5 id="平面机构的组成原理"><a href="#平面机构的组成原理" class="headerlink" title="平面机构的组成原理"></a>平面机构的组成原理</h5><p><strong>机构具有确定运动的条件</strong>：原动件数应等于其自由度数。</p>
+<p><strong>基本杆组</strong>: 不能再拆的最简单的自由度为零的构件组。也称阿苏尔杆组，简称杆组。</p>
+<p><strong>组成原理</strong>: 任何机构都可以看作是由若干个基本杆组依次连接于原动件和机架上而构成的。</p>
+<blockquote>
+<p>注意：在杆组并接时，不能将同一杆组的各个外接运动副接于同一构件上，否则将起不到增加杆组的作用。</p>
+</blockquote>
+<h5 id="平面机构的结构分类"><a href="#平面机构的结构分类" class="headerlink" title="平面机构的结构分类"></a>平面机构的结构分类</h5><p>机构的结构分类是根据机构中<strong>基本杆组的不同组成形态</strong>进行的。</p>
+<p><strong>II级杆组</strong>——由2个构件和3个低副构成的杆组，有5种不同类型。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/../image/%E6%9C%BA%E6%A2%B0%E5%8E%9F%E7%90%86%E5%A4%8D%E4%B9%A0/%E7%AC%AC%E4%BA%8C%E7%AB%A0/2.4-1.jpg"
+                      alt="II级杆组"
+                ></p>
+<p><strong>III级杆组</strong>——由4个构件和6个低副构成的杆组。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/../image/%E6%9C%BA%E6%A2%B0%E5%8E%9F%E7%90%86%E5%A4%8D%E4%B9%A0/%E7%AC%AC%E4%BA%8C%E7%AB%A0/2.4-2.jpg"
+                      alt="III级杆组"
+                ></p>
+<p><em>特点</em>：有一个构件包含3个低副。</p>
+<p>通常把由<strong>最高级别的基本杆组</strong>组成的机构称为这个级别的机构。如由最高级别为II级杆组组成的机构称为II级机构，由最高级别为III级杆组组成的机构称为III级机构。把只由机架和原动件构成的机构称为I级机构，如杠杆机构、斜面机构。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/../image/%E6%9C%BA%E6%A2%B0%E5%8E%9F%E7%90%86%E5%A4%8D%E4%B9%A0/%E7%AC%AC%E4%BA%8C%E7%AB%A0/2.4-3.png"
+                      alt="机构的级别"
+                ></p>
+<h5 id="平面机构的结构分析"><a href="#平面机构的结构分析" class="headerlink" title="平面机构的结构分析"></a>平面机构的结构分析</h5><p><em>目的</em>：了解机构的组成，并确定机构的级别。</p>
+<p><em>方法</em>：</p>
+<ol>
+<li>正确计算机构的自由度（需除去虚约束和局部自由度），并确定<br>原动件；</li>
+<li>从远离原动件的构件开始拆杆组，并先拆II级杆组，弱不成功，<br>再拆III级杆组，直至全部杆组拆出只剩下原动件和机架为止；</li>
+<li>最后确定机构的级别。</li>
+</ol>
+<p><em>注意</em>：同一机构，因所取的原动件不同，有可能成为不同级别的机构。</p>
+<h5 id="平面机构的结构综合"><a href="#平面机构的结构综合" class="headerlink" title="平面机构的结构综合"></a>平面机构的结构综合</h5><div class="note-large notel-default"><div class="notel-title"><p>机构结构综合的意义</p>
+</div><div class="notel-content"><p>机构的结构方案设计是新机械设计的首要设计阶段，其设计结果直接决定到所设计机械的使用效果、结构的繁简程度、效率高低以及成本和可靠性等性能，故设计机械的优良的机构结构方案具有重要的意义。</p>
+ </div></div>
+<div class="note-large notel-default"><div class="notel-title"><p>机构结构综合的方法</p>
+</div><div class="notel-content"><p>对于机械的机构结构方案设计即综合，通常是在选定机构的原动件数目或已知机构的自由度情况下，根据设计问题及其运动规律的要求，按照机构的组成原理，选择或确定最适合于设计问题的适当的机构结构形式即机构的构型，这种机构的构型选择或确定的设计过程称为机构的结构综合。</p>
+ </div></div>
+
+<h4 id="机构的变换原理及其结构创新设计"><a href="#机构的变换原理及其结构创新设计" class="headerlink" title="机构的变换原理及其结构创新设计"></a>机构的变换原理及其结构创新设计</h4><h5 id="机构的变换原理"><a href="#机构的变换原理" class="headerlink" title="机构的变换原理"></a>机构的变换原理</h5><p><strong>由机构的结构分析可知：</strong></p>
+<ul>
+<li>其他类型的平面机构都可以认为是：由平面全转动副机构可通过构件或运动副等运动及结构变换或变异演化而形成的。</li>
+<li>反之，它们也都可以通过这些逆变换转化为全转动副机构，这样就可以按<br>平面全转动副机构结构的理论及方法来进行机构结构分析与综合了</li>
+</ul>
+<p><strong>机构的变换原理</strong></p>
+<p>通过机构的运动或结构变换而形成不同机构类型或结构形式的变异或演化的基本理论。它是<strong>机构结构创新设计的基本原理</strong>。</p>
+<div class="note-large notel-default"><div class="notel-title"><p>意义</p>
+</div><div class="notel-content"><p>将对搞清各类型机构结构之间的<strong>内在联系</strong>和<strong>运动等效变换关系</strong>，有助于更好地掌握各类机构的<strong>认知规律</strong>和<strong>拓展新机构的途径及方法</strong>，分析和解决<strong>复杂机构的分析与综合问题</strong>，并建立归一化的机构分析与设计理论，以及对工程师的工程创造性思维和综合能力都具有重要的意义。</p>
+ </div></div>
+
+<h5 id="构件的变换原理"><a href="#构件的变换原理" class="headerlink" title="构件的变换原理"></a>构件的变换原理</h5><p><strong>机架变换</strong></p>
+<p>运动链中取不同构件为机架以获得不同型式机构的结构变换方法。从相对运动原理看，这种机构的机架变换实质上是取不同参考系的机构演化，故又称<strong>机构倒置</strong>。</p>
+<p><strong>主动件变换</strong></p>
+<p>由破碎机机构的结构分析可知，对于一个多杆机构的结构分析，当取不同的构件为主动件时，机构可变换为不同级别的机构。</p>
+<div class="note-large notel-default"><div class="notel-title"><p>主动件变换的意义</p>
+</div><div class="notel-content"><ul>
+<li>通过主动件改变，可化将机构化繁为简，——将Ⅲ级机构变换为Ⅱ级机构，即可将复杂机构变换为简单机构来分析。</li>
+<li>通过选择不同运动形式主动件、运动形式以及运动规律，满足机构的驱动特性，具有重要的机构综合创新意义。</li>
+</ul>
+ </div></div>
+
+<h5 id="运动副变换方法"><a href="#运动副变换方法" class="headerlink" title="运动副变换方法"></a>运动副变换方法</h5><p><strong>运动副类型变换</strong></p>
+<ul>
+<li><em>转-移运动副变换</em>：转动副变换为移动副的演化。改变构件的形状和尺寸的演化方法。</li>
+<li><em><strong>高复低代（条件）</strong></em> ：<ul>
+<li>代替前后机构的自由度完全相同；</li>
+<li>代替前后机构的瞬时速度和瞬时加速度完全相同。</li>
+<li>在平面机构中进行高副低代时，为了使得代替前后机构的自由度、瞬时速度和加速度都保持不变，只要用一个虚拟构件分别与两高副构件在过接触点的曲率中心处以转动副相联就行了。</li>
+</ul>
+</li>
+</ul>
+<p><strong>运动副元素变换</strong></p>
+<ul>
+<li><em>运动副元素尺寸扩大</em> —— 扩大转动副轴径半径或移动副滑块尺寸的演化。</li>
+<li><em>运动副元素逆换</em> —— 移动副两元素的包容关系逆换的演化。</li>
+</ul>
+<blockquote>
+<p>运动副元素逆换属于机构结构的变换特性，可有效解决实现相同运动规律下满足工程设计多结构方案要求问题。</p>
+</blockquote>
+<p><strong>运动副约束度的变换</strong></p>
+<ul>
+<li>具有约束度变换特性的运动副</li>
+<li>利用附加运动副非结构的约束力的运动变换特性。</li>
+</ul>
+<h4 id="作业"><a href="#作业" class="headerlink" title="作业"></a>作业</h4><p>课后布置的作业啦，随便看看。</p>
+<p><em><strong>2-7</strong></em> 何为机构的构成原理？何为基本杆组？它具有什么特性？如何确定基本杆组的级别及机构级别？</p>
+<blockquote>
+<p>机构的组成原理：任何机构都是可以看作是由若干个<strong>基本杆组</strong>依次连接于原动件和机架上构成的。<br>基本杆组：不能再拆的最简单的自由度为零的构件。其特性为<strong>自由度为零，不可拆分</strong>。<br>杆组中包含有<strong>最多运动副</strong>的构件的运动副数目即位杆组的级别。机构中<strong>最高级别基本杆组的级别</strong>即为机构的级别。</p>
+</blockquote>
+<p><em><strong>2-15</strong></em> 试绘制图2-56所示机械手的机构运动简图，并计算其自由度。图2-56a为仿食指的机械手机构；图2-56b为夹持型机械手。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/../image/%E6%9C%BA%E6%A2%B0%E5%8E%9F%E7%90%86%E5%A4%8D%E4%B9%A0/%E7%AC%AC%E4%BA%8C%E7%AB%A0/2-56.jpg"
+                      alt="2-56"
+                ></p>
+<blockquote>
+<p>(a)机构运动简图如图 2-31 所示。$n&#x3D;7, p_l$&#x3D;10, $p_h$&#x3D;0<br>机构自由度<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/../image/%E6%9C%BA%E6%A2%B0%E5%8E%9F%E7%90%86%E5%A4%8D%E4%B9%A0/%E7%AC%AC%E4%BA%8C%E7%AB%A0/2-31.jpg"
+                      alt="2-31"
+                ><br>$F&#x3D;3n-(2p_l+p_h)&#x3D;3\times7-(2\times10+0)&#x3D;1$ </p>
+<p>(b)机构的运动简图如图 2-32 所示。$n&#x3D;9, p_l&#x3D;13, p_h$&#x3D;0<br>机构自由度<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/../image/%E6%9C%BA%E6%A2%B0%E5%8E%9F%E7%90%86%E5%A4%8D%E4%B9%A0/%E7%AC%AC%E4%BA%8C%E7%AB%A0/2-32.jpg"
+                      alt="2-32"
+                ><br>$F&#x3D;3n-(2p_l+p_h)&#x3D;3\times9-(2\times13+0)&#x3D;1$ </p>
+</blockquote>
+<p><em><strong>2-17</strong></em> 图2-58a、d为齿轮-连杆组合机构；图2-58b为凸轮-连杆组合机构（图中在D处为铰接在一起的两个滑块）；图2-58c为一精压机构；图2-58e为一楔块机构；图2-58f为一齿轮系机构。试计算如图所示各机构的自由度，并问在图2-58d所示机构中，齿轮3、5和齿条7与齿轮5的啮合高副所提供的约束数目是否相同，为什么？</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/../image/%E6%9C%BA%E6%A2%B0%E5%8E%9F%E7%90%86%E5%A4%8D%E4%B9%A0/%E7%AC%AC%E4%BA%8C%E7%AB%A0/2-58.jpg"
+                      alt="2-58"
+                ></p>
+<blockquote>
+<p>(a) $n&#x3D;4, p_l&#x3D;5, p_h$&#x3D;1<br>机构自由度:<br>$F&#x3D;3n-(2p_l+p_h)&#x3D;3\times9-(2\times13+0)&#x3D;1$<br>(b) B、E 两处滚子转动为局部自由度，即局部自由度数$F’&#x3D;2$；而虚约束$p’&#x3D;3$, 则$n&#x3D;7, p_l&#x3D;8,p_h&#x3D;2$<br>机构自由度：<br>$F&#x3D;3n-(2p_l+p_h-p’)-F’&#x3D;3\times7-(2\times8+2-0)-2&#x3D;1$<br>(c)从传递运动的独立性来看，有机构$ABCDE$即可，其余为重复部分，引入了虚约束，计算时首先将机构重复部分去除，此时$n&#x3D;5,p_l&#x3D;7,p_h&#x3D;0$<br>机构自由度：<br>$F&#x3D;3n-(2p_l+p_h)&#x3D;3\times5-(2\times7+0)&#x3D;1$<br>(d) $n&#x3D;6, p_l&#x3D;7, p_h&#x3D;3$<br>机构自由度：<br>$F&#x3D;3n-(2p_l+p_h)&#x3D;3\times6-(2\times7+3)&#x3D;1$<br>齿轮 3，5 和齿条 7 与齿轮 5 的啮合高副所提供的约束数目不同，因为齿轮 3，5 啮合中心距不变，只算一个高副，而齿条 7 与齿轮 5 靠重力啮合，在齿两侧面保持接触，故为两个高副。</p>
+</blockquote>
+<p><em><strong>2-24</strong></em> 图 2-65 所示为一双杠内燃机的机构运动简图，试计算其自由度，并分析组成此机构的基本杆组。如果在该机构中改选构建 5 为主动件，试问组成此机构的基本杆组是否与前有所不同？</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/../image/%E6%9C%BA%E6%A2%B0%E5%8E%9F%E7%90%86%E5%A4%8D%E4%B9%A0/%E7%AC%AC%E4%BA%8C%E7%AB%A0/2-65.jpg"
+                      alt="2-65"
+                ></p>
+<blockquote>
+<p>如图 $n&#x3D;7, p_l&#x3D;10,p_h&#x3D;0,$<br>机构自由度$F&#x3D;3n-(2p_l+p_h)&#x3D;3\times7-(2\times10+0)&#x3D;1$<br>选择杆件 1 为原动件时，此机构由滑块 7 与杆件 5 、杆件 4 与杆件 3 、滑块 6 与杆件 2 组成的三个 $II$ 级杆组组成，如图 2-46 中的（a）图所示。<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/../image/%E6%9C%BA%E6%A2%B0%E5%8E%9F%E7%90%86%E5%A4%8D%E4%B9%A0/%E7%AC%AC%E4%BA%8C%E7%AB%A0/2-46.jpg"
+                      alt="2-46"
+                ><br>若改选杆件 4 为原动件，则机构由滑块 6、杆件 1、2、3组成的 $III$ 级杆组和滑块 7  与杆件 5 组成的 $II$ 级杆组组成，如图 2-46 中的（b）图所示。</p>
+</blockquote>
+<hr>
+<p>中间还么有写~</p>
+<hr>
+<h3 id="第十二章"><a href="#第十二章" class="headerlink" title="第十二章"></a>第十二章</h3><h4 id="作业-1"><a href="#作业-1" class="headerlink" title="作业"></a>作业</h4><p><strong>12-1</strong> 棘轮机构除常用来实现见运动的功能外，还常用来实现什么功能？</p>
+<blockquote>
+<p>棘轮机构除了常用的间歇送进功能外，其他主要功能有：制动、转位分度、超越离合。</p>
+</blockquote>
+<p><em><strong>12-6</strong></em> 为什么槽轮机构的运动系数 k 不能大于1？</p>
+<blockquote>
+<p>当主动拨盘回转一周时，槽轮的运动时间 $t_d$ 与主动拨盘转一圈的总时间 $t$ 之比，称为槽轮机构的运动系数，并以k表示，即 $k &#x3D; t_d&#x2F;t$ 。<br>因为槽轮机构为间隙运动机构，所以 $t_d \leq t $ ，所以 $k \leq 1$ 。</p>
+</blockquote>
+<p><em><strong>12-8</strong></em> 某自动机的工作台要求有六个工位，转台间歇时进行工艺活动，其中最长的一个工序为 30 s。现拟采用一槽轮机构来完成间歇转位工作，试确定槽轮机构主动轮的转速。</p>
+<blockquote>
+<p>从提高生产效率的角度出发，应选用单圆销六槽的外槽轮机构。<br>$k &#x3D; n(\dfrac{1}{2}-\dfrac{1}{z})&#x3D;1\times(\dfrac{1}{2}-\dfrac{1}{6})&#x3D;\dfrac{1}{3}$<br>带入 $k&#x3D;\dfrac{1}{3}, t_d&#x3D;30s$ 到公式 $k&#x3D;\dfrac{t_d}{t}&#x3D;\dfrac{t-t_j}{t}$ 中得<br>$t&#x3D;\dfrac{t_j}{1-k}&#x3D;45s$<br>$n&#x3D;\dfrac{1}{t}\times60s&#x3D;\dfrac{4}{3}r&#x2F;min$</p>
+</blockquote>
+
+            </div>
+
+            
+                <div class="post-copyright-info">
+                    <div class="article-copyright-info-container">
+    <ul>
+        <li><strong>标题:</strong> 机械原理复习</li>
+        <li><strong>作者:</strong> omni</li>
+        <li><strong>创建于:</strong> 2023-05-19 20:47:00</li>
+        
+            <li>
+                <strong>更新于:</strong> 2023-05-24 04:39:02
+            </li>
+        
+        <li>
+            <strong>链接:</strong> https://omni-science.github.io/2023/05/19/机械原理复习/
+        </li>
+        <li>
+            <strong>版权声明:</strong> 本文章采用 <a class="license" target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">CC BY-NC-SA 4.0</a> 进行许可。
+        </li>
+    </ul>
+</div>
+
+                </div>
+            
+
+            
+                <ul class="post-tags-box">
+                    
+                        <li class="tag-item">
+                            <a href="/tags/%E5%A4%8D%E4%B9%A0/">#复习</a>&nbsp;
+                        </li>
+                    
+                        <li class="tag-item">
+                            <a href="/tags/%E6%9C%BA%E6%A2%B0%E5%8E%9F%E7%90%86/">#机械原理</a>&nbsp;
+                        </li>
+                    
+                </ul>
+            
+
+            
+
+            
+                <div class="article-nav">
+                    
+                        <div class="article-prev">
+                            <a class="prev"
+                            rel="prev"
+                            href="/2023/05/21/Begin/"
+                            >
+                                <span class="left arrow-icon flex-center">
+                                    <i class="fa-solid fa-chevron-left"></i>
+                                </span>
+                                <span class="title flex-center">
+                                    <span class="post-nav-title-item">一篇自用的Markdown小教程</span>
+                                    <span class="post-nav-item">上一篇</span>
+                                </span>
+                            </a>
+                        </div>
+                    
+                    
+                </div>
+            
+
+
+            
+                <div class="comment-container">
+                    <div class="comments-container">
+    <div id="comment-anchor"></div>
+    <div class="comment-area-title">
+        <i class="fa-solid fa-comments"></i>&nbsp;评论
+    </div>
+    
+
+        
+            
+ 
+    <div id="waline"></div>
+    <script type="module"  data-pjax>
+        import { init } from 'https://evan.beee.top/js/waline.mjs';
+
+        function loadWaline() {
+            init({
+                el: '#waline',
+                serverURL: 'https://example.example.com',
+                lang: 'zh-CN',
+                dark: 'body[class~="dark-mode"]',
+                requiredMeta: ['nick','mail'], // cannot customize by theme config, change it yourself
+            });
+        }
+
+        if ('true') {
+            const loadWalineTimeout = setTimeout(() => {
+                loadWaline();
+                clearTimeout(loadWalineTimeout);
+            }, 1000);
+        } else {
+            window.addEventListener('DOMContentLoaded', loadWaline);
+        }
+        
+    </script>
+
+
+
+        
+    
+</div>
+
+                </div>
+            
+        </div>
+
+        
+            <div class="toc-content-container">
+                <div class="post-toc-wrap">
+    <div class="post-toc">
+        <div class="toc-title">此页目录</div>
+        <div class="page-title">机械原理复习</div>
+        <ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%9C%BA%E6%A2%B0%E5%8E%9F%E7%90%86%E5%A4%8D%E4%B9%A0"><span class="nav-number">1.</span> <span class="nav-text">机械原理复习</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%BA%8F%E8%AE%BA"><span class="nav-number">1.1.</span> <span class="nav-text">序论</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%AC%AC%E4%B8%80%E7%AB%A0-%E7%BB%AA%E8%AE%BA"><span class="nav-number">1.1.1.</span> <span class="nav-text">第一章 绪论</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%AC%AC%E4%B8%80%E7%AF%87-%E6%9C%BA%E6%9E%84%E5%88%86%E6%9E%90%E5%9F%BA%E7%A1%80"><span class="nav-number">1.2.</span> <span class="nav-text">第一篇  机构分析基础</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%AC%AC%E4%BA%8C%E7%AB%A0-%E6%9C%BA%E6%9E%84%E7%9A%84%E7%BB%93%E6%9E%84%E5%88%86%E6%9E%90"><span class="nav-number">1.2.1.</span> <span class="nav-text">第二章 机构的结构分析</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%9C%BA%E6%9E%84%E7%9A%84%E8%BF%90%E5%8A%A8%E7%A1%AE%E5%AE%9A%E6%80%A7%E5%8F%8A%E5%85%B6%E8%87%AA%E7%94%B1%E5%BA%A6%E5%88%86%E6%9E%90"><span class="nav-number">1.2.2.</span> <span class="nav-text">机构的运动确定性及其自由度分析</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%AC%AC%E5%8D%81%E4%BA%8C%E7%AB%A0"><span class="nav-number">1.2.3.</span> <span class="nav-text">第十二章</span></a></li></ol></li></ol></li></ol>
+
+    </div>
+</div>
+            </div>
+        
+    </div>
+</div>
+
+
+                
+
+            </div>
+            
+            
+
+        </div>
+
+        <div class="main-content-footer">
+            <footer class="footer">
+    <div class="info-container">
+        <div class="copyright-info">
+            &copy;
+            
+              <span>2023</span>
+              -
+            
+            2023&nbsp;&nbsp;<i class="fa-solid fa-heart fa-beat" style="--fa-animation-duration: 0.5s; color: #f54545"></i>&nbsp;&nbsp;<a href="/">omni</a>
+        </div>
+        
+            <script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+            <div class="website-count info-item">
+                
+                    <span id="busuanzi_container_site_uv" class="busuanzi_container_site_uv">
+                        访问人数&nbsp;<span id="busuanzi_value_site_uv" class="busuanzi_value_site_uv"></span>
+                    </span>
+                
+                
+                    <span id="busuanzi_container_site_pv" class="busuanzi_container_site_pv">
+                        总访问量&nbsp;<span id="busuanzi_value_site_pv" class="busuanzi_value_site_pv"></span>
+                    </span>
+                
+            </div>
+        
+        <div class="theme-info info-item">
+            <span class="powered-by-container">由 <?xml version="1.0" encoding="utf-8"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg version="1.1" id="圖層_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1rem" height="1rem" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve"><path fill="#0E83CD" d="M256.4,25.8l-200,115.5L56,371.5l199.6,114.7l200-115.5l0.4-230.2L256.4,25.8z M349,354.6l-18.4,10.7l-18.6-11V275H200v79.6l-18.4,10.7l-18.6-11v-197l18.5-10.6l18.5,10.8V237h112v-79.6l18.5-10.6l18.5,10.8V354.6z"/></svg><a target="_blank" href="https://hexo.io">Hexo</a> 驱动</span>
+                <br>
+            <span class="theme-version-container">主题&nbsp;<a class="theme-version" target="_blank" href="https://github.com/EvanNotFound/hexo-theme-redefine">Redefine v2.1.4</a>
+        </div>
+        
+        
+        
+            <div id="start_div" style="display:none">
+                2023/5/20 11:45:14
+            </div>
+            <div>
+                博客已运行 <span class="odometer" id="runtime_days" ></span> 天 <span class="odometer" id="runtime_hours"></span> 小时 <span class="odometer" id="runtime_minutes"></span> 分钟 <span class="odometer" id="runtime_seconds"></span> 秒
+            </div>
+        
+        
+        
+            <script async data-pjax>
+                try {
+                    function odometer_init() {
+                    const elements = document.querySelectorAll('.odometer');
+                    elements.forEach(el => {
+                        new Odometer({
+                            el,
+                            format: '( ddd).dd',
+                            duration: 200
+                        });
+                    });
+                    }
+                    odometer_init();
+                } catch (error) {}
+            </script>
+        
+        
+        
+    </div>  
+</footer>
+        </div>
+    </div>
+
+    
+        <div class="post-tools">
+            <div class="post-tools-container">
+    <ul class="article-tools-list">
+        <!-- TOC aside toggle -->
+        
+            <li class="right-bottom-tools page-aside-toggle">
+                <i class="fa-regular fa-outdent"></i>
+            </li>
+        
+
+        <!-- go comment -->
+        
+            <li class="go-comment">
+                <i class="fa-regular fa-comments"></i>
+            </li>
+        
+    </ul>
+</div>
+
+        </div>
+    
+
+    <div class="right-side-tools-container">
+        <div class="side-tools-container">
+    <ul class="hidden-tools-list">
+        <li class="right-bottom-tools tool-font-adjust-plus flex-center">
+            <i class="fa-regular fa-magnifying-glass-plus"></i>
+        </li>
+
+        <li class="right-bottom-tools tool-font-adjust-minus flex-center">
+            <i class="fa-regular fa-magnifying-glass-minus"></i>
+        </li>
+
+        <li class="right-bottom-tools tool-expand-width flex-center">
+            <i class="fa-regular fa-expand"></i>
+        </li>
+
+        <li class="right-bottom-tools tool-dark-light-toggle flex-center">
+            <i class="fa-regular fa-moon"></i>
+        </li>
+
+        <!-- rss -->
+        
+
+        
+
+        <li class="right-bottom-tools tool-scroll-to-bottom flex-center">
+            <i class="fa-regular fa-arrow-down"></i>
+        </li>
+    </ul>
+
+    <ul class="visible-tools-list">
+        <li class="right-bottom-tools toggle-tools-list flex-center">
+            <i class="fa-regular fa-cog fa-spin"></i>
+        </li>
+        
+            <li class="right-bottom-tools tool-scroll-to-top flex-center">
+                <i class="arrow-up fas fa-arrow-up"></i>
+                <span class="percent"></span>
+            </li>
+        
+        
+    </ul>
+</div>
+
+    </div>
+
+    <div class="image-viewer-container">
+    <img src="">
+</div>
+
+
+    
+        <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+          <span class="search-input-field-pre">
+            <i class="fa-solid fa-keyboard"></i>
+          </span>
+            <div class="search-input-container">
+                <input autocomplete="off"
+                       autocorrect="off"
+                       autocapitalize="off"
+                       placeholder="搜索..."
+                       spellcheck="false"
+                       type="search"
+                       class="search-input"
+                >
+            </div>
+            <span class="popup-btn-close">
+                <i class="fa-solid fa-times"></i>
+            </span>
+        </div>
+        <div id="search-result">
+            <div id="no-result">
+                <i class="fa-solid fa-spinner fa-spin-pulse fa-5x fa-fw"></i>
+            </div>
+        </div>
+    </div>
+</div>
+
+    
+
+
+</main>
+
+
+
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/main.js"></script>
+
+<script src="/js/layouts/navbarShrink.js"></script>
+
+<script src="/js/tools/scrollTopBottom.js"></script>
+
+<script src="/js/tools/lightDarkSwitch.js"></script>
+
+
+
+    
+<script src="/js/tools/localSearch.js"></script>
+
+
+
+
+    
+<script src="/js/tools/codeBlock.js"></script>
+
+
+
+
+    
+<script src="/js/layouts/lazyload.js"></script>
+
+
+
+
+    
+<script src="/js/tools/runtime.js"></script>
+
+    
+<script src="/js/layouts/odometer.min.js"></script>
+
+    
+<link rel="stylesheet" href="/assets/odometer-theme-minimal.css">
+
+
+
+
+  
+<script src="/js/libs/Typed.min.js"></script>
+
+  
+<script src="/js/plugins/typed.js"></script>
+
+
+
+
+
+
+
+<div class="post-scripts pjax">
+    
+        
+<script src="/js/tools/tocToggle.js"></script>
+
+<script src="/js/libs/anime.min.js"></script>
+
+<script src="/js/layouts/toc.js"></script>
+
+<script src="/js/plugins/tabs.js"></script>
+
+    
+</div>
+
+
+    
+<script src="/js/libs/pjax.min.js"></script>
+
+<script>
+    window.addEventListener('DOMContentLoaded', () => {
+        window.pjax = new Pjax({
+            selectors: [
+                'head title',
+                '.page-container',
+                '.pjax',
+            ],
+            history: true,
+            debug: false,
+            cacheBust: false,
+            timeout: 0,
+            analytics: false,
+            currentUrlFullReload: false,
+            scrollRestoration: false,
+            // scrollTo: true,
+        });
+
+        document.addEventListener('pjax:send', () => {
+            Global.utils.pjaxProgressBarStart();
+        });
+
+        document.addEventListener('pjax:complete', () => {
+            Global.utils.pjaxProgressBarEnd();
+            window.pjax.executeScripts(document.querySelectorAll('script[data-pjax], .pjax script'));
+            Global.refresh();
+        });
+    });
+</script>
+
+
+
+
+    <div id="aplayer"></div>
+
+<script src="/js/libs/APlayer.min.js"></script>
+
+
+<script src="/js/plugins/aplayer.js"></script>
+
+
+</body>
+</html>
